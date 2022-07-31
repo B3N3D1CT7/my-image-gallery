@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Made by Benedict -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Benedict Umeozor">
+  <title>My Template</title>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/fffd17f093.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  
+  <section id="section">
+    
+    <header>
+      <div class="container">
+        <h1>BenCoding...</h1>
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    <div class="container">
+      <main>
+        
+        <div class="title">
+          <span>Image Gallery</span>
+        </div>
+        
+        <div class="slide-container">
+          <div class="slide">
+            <img class="opaque" src="https://images.unsplash.com/photo-1527161153332-99adcc6f2966?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2lsZCUyMGxpZmV8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60">
+          </div>
+          <div class="slide">
+            <img class="opaque" src="https://images.unsplash.com/photo-1527073620320-77635188c627?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+          </div>
+          <div class="slide">
+            <img class="opaque" src="https://images.unsplash.com/photo-1570826885524-ea6f1dc1c952?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2lsZCUyMGxpZmV8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60">
+          </div>
+          <div class="slide">
+            <img class="opaque" src="https://images.unsplash.com/photo-1477949775154-d739b82400b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8d2lsZCUyMGxpZmV8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60">
+          </div>
+          <div class="slide">
+            <img class="opaque" src="https://images.unsplash.com/photo-1530545232169-783ad58b026f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d2lsZCUyMGxpZmV8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60">
+          </div>
+          <div class="slide">
+            <img class="opaque" src="https://images.unsplash.com/photo-1520637438573-ee1ba80b2a7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHdpbGQlMjBsaWZlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60">
+          </div>
+          
+          <i class="fa-solid fa-angle-left prev"></i>
+          <i class="fa-solid fa-angle-right next"></i>
+          
+          <div class="dots">
+            <div class="dot" onclick="currentSlide(0)"></div>
+            <div class="dot" onclick="currentSlide(1)"></div>
+            <div class="dot" onclick="currentSlide(2)" ></div>
+            <div class="dot" onclick="currentSlide(3)"></div>
+            <div class="dot" onclick="currentSlide(4)"></div>
+            <div class="dot" onclick="currentSlide(5)"></div>
+          </div>
+        </div>
+        <div class="button">
+          <button class="start">Automate</button>
+          <button class="stop">Stop</button>
+        </div>
+      </main>
+    </div>
+  </section>
+ <!-- JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>
